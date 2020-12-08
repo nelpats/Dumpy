@@ -11,6 +11,7 @@
 - XOR Mutations
 - ToInt32 Mutations
 - SizeOf Mutations
+- Round Mutations
 
 ## Example
 ### Before
