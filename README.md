@@ -8,6 +8,9 @@
 - Sub Mutations
 - Mul Mutations
 - Div Mutations
+- XOR Mutations
+- ToInt32 Mutations
+- SizeOf Mutations
 
 ## Example
 ### Before
