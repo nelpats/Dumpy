@@ -11,10 +11,19 @@
 
 ## Example
 ### Before
-![image](https://user-images.githubusercontent.com/47573987/101532472-e4b5e100-3994-11eb-940f-f5ba466dea56.png)
-
+```
+	int num = Math.Abs((419 + 9) / (3 + 1));
+	int num2 = Math.Abs((246 + 4) / 1);
+	int value = num + num2;
+	Console.WriteLine(value);
+```
 ### After
-![image](https://user-images.githubusercontent.com/47573987/101532532-fd25fb80-3994-11eb-8994-97fdc0e2200c.png)
+```
+	int num = 428 / 4;
+	int num2 = 250;
+	int value = num + num2;
+	Console.WriteLine(value);
+```
 
 
 ![Screenshot_4](https://user-images.githubusercontent.com/47573987/101531543-b7b4fe80-3993-11eb-9ce3-e2de1a26000f.png)
