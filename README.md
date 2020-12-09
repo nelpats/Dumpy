@@ -1,7 +1,7 @@
 # Dumpy
 ### Simple .NET Assembly deobfuscator.
 
-## Features
+## Supported Mutations
 - Abs Mutations
 - Length Mutations
 - Add Mutations
@@ -12,21 +12,23 @@
 - ToInt32 Mutations
 - SizeOf Mutations
 - Round Mutations
+- EnmptyTypes Mutations
+- Double Parser Mutations
 
 ## Example
 ### Before
 ```
-	int num = Math.Abs((419 + 9) / (3 + 1));
-	int num2 = Math.Abs((246 + 4) / 1);
-	int value = num + num2;
-	Console.WriteLine(value);
+int num = (int)Math.Round(40.0);
+int num2 = -8081 + 7242 + (int)double.Parse("871.154178928656") + (sizeof(int) - sizeof(byte)) + Type.EmptyTypes.Length;
+Console.WriteLine(num + num2);
+Console.Write("Hey !");
+Console.ReadLine();
 ```
 ### After
 ```
-	int num = 428 / 4;
-	int num2 = 250;
-	int value = num + num2;
-	Console.WriteLine(value);
+Console.WriteLine(75);
+Console.Write("Hey !");
+Console.ReadLine();
 ```
 
 
