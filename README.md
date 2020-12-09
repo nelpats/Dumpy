@@ -20,6 +20,18 @@
 - EmptyTypes Mutations
 - Double Parser Mutations
 
+## Supported Obfuscators
+- Confuser
+- ConfuserEx
+- DarksProtector
+- Generic Obfuscators
+###### note: this may work on many other obfuscators.
+
+## Usage
+```
+Dumpy.exe <path>
+```
+
 ## Example
 ### Before
 ```
