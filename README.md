@@ -3,6 +3,11 @@
 
 ## Supported Mutations
 - Abs Mutations
+- Cos Mutations
+- Floor Mutations
+- Truncate Mutations
+- Log Mutations
+- Log10 Mutations
 - Length Mutations
 - Add Mutations
 - Sub Mutations
