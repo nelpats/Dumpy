@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dumpy", "Dumpy\Dumpy.csproj", "{596B1072-BAB8-40BC-9E4A-BA2474FBE55F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{596B1072-BAB8-40BC-9E4A-BA2474FBE55F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{596B1072-BAB8-40BC-9E4A-BA2474FBE55F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{596B1072-BAB8-40BC-9E4A-BA2474FBE55F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{596B1072-BAB8-40BC-9E4A-BA2474FBE55F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2433109-F90C-4564-9804-F6E7B3339C0C}
+	EndGlobalSection
+EndGlobal
