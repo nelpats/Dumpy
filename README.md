@@ -12,7 +12,7 @@
 - ToInt32 Mutations
 - SizeOf Mutations
 - Round Mutations
-- EnmptyTypes Mutations
+- EmptyTypes Mutations
 - Double Parser Mutations
 
 ## Example
