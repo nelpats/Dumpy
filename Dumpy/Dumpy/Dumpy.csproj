@@ -54,25 +54,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dump.Decoder\ErrorHandler\Ldci4ToConvi4Handler.cs" />
-    <Compile Include="Dump.Decoder\Maths\Abs.cs" />
-    <Compile Include="Dump.Decoder\Maths\Add.cs" />
-    <Compile Include="Dump.Decoder\Maths\Cos.cs" />
-    <Compile Include="Dump.Decoder\Maths\Div.cs" />
-    <Compile Include="Dump.Decoder\Maths\DoubleParse.cs" />
-    <Compile Include="Dump.Decoder\Maths\EmpyTypes.cs" />
-    <Compile Include="Dump.Decoder\Maths\Floor.cs" />
-    <Compile Include="Dump.Decoder\Maths\Length.cs" />
-    <Compile Include="Dump.Decoder\Maths\Log.cs" />
-    <Compile Include="Dump.Decoder\Maths\Log10.cs" />
-    <Compile Include="Dump.Decoder\Maths\MathsDecoder.cs" />
-    <Compile Include="Dump.Decoder\Maths\Mul.cs" />
-    <Compile Include="Dump.Decoder\Maths\SizeOf.cs" />
-    <Compile Include="Dump.Decoder\Maths\Sub.cs" />
-    <Compile Include="Dump.Decoder\Maths\ToInt32.cs" />
-    <Compile Include="Dump.Decoder\Maths\Round.cs" />
-    <Compile Include="Dump.Decoder\Maths\Truncate.cs" />
-    <Compile Include="Dump.Decoder\Maths\Xor.cs" />
+    <Compile Include="Dumpy.Decoder\ErrorHandler\Ldci4ToConvi4Handler.cs" />
+    <Compile Include="Dumpy.Decoder\Maths\Abs.cs" />
+    <Compile Include="Dumpy.Decoder\Maths\Add.cs" />
+    <Compile Include="Dumpy.Decoder\Maths\Cos.cs" />
+    <Compile Include="Dumpy.Decoder\Maths\Div.cs" />
+    <Compile Include="Dumpy.Decoder\Maths\DoubleParse.cs" />
+    <Compile Include="Dumpy.Decoder\Maths\EmpyTypes.cs" />
+    <Compile Include="Dumpy.Decoder\Maths\Floor.cs" />
+    <Compile Include="Dumpy.Decoder\Maths\Length.cs" />
+    <Compile Include="Dumpy.Decoder\Maths\Log.cs" />
+    <Compile Include="Dumpy.Decoder\Maths\Log10.cs" />
+    <Compile Include="Dumpy.Decoder\Decoder.cs" />
+    <Compile Include="Dumpy.Decoder\Maths\Mul.cs" />
+    <Compile Include="Dumpy.Decoder\Maths\SizeOf.cs" />
+    <Compile Include="Dumpy.Decoder\Maths\Sub.cs" />
+    <Compile Include="Dumpy.Decoder\Maths\ToInt32.cs" />
+    <Compile Include="Dumpy.Decoder\Maths\Round.cs" />
+    <Compile Include="Dumpy.Decoder\Maths\Truncate.cs" />
+    <Compile Include="Dumpy.Decoder\Maths\Xor.cs" />
+    <Compile Include="Dumpy.Decoder\Others\Nop.cs" />
     <Compile Include="Dumpy.Utils\Logger.cs" />
     <Compile Include="Dumpy.Utils\ModuleImport.cs" />
     <Compile Include="Program.cs" />
@@ -82,8 +83,6 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Dump.Decoder\Others\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

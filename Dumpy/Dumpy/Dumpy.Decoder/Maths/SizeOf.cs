@@ -67,7 +67,23 @@ public class SizeOf
                                             instr[i].OpCode = OpCodes.Ldc_I4_1;
                                             count++;
                                             break;
-                                    }
+                                        case "System.Char":
+                                            instr[i].OpCode = OpCodes.Ldc_I4_2;
+                                            count++;
+                                            break;
+                                         case "System.UShort":
+                                             instr[i].OpCode = OpCodes.Ldc_I4_2;
+                                             count++;
+                                             break;
+                                         case "System.Long":
+                                             instr[i].OpCode = OpCodes.Ldc_I4_8;
+                                             count++;
+                                             break;
+                                         case "System.ULong":
+                                             instr[i].OpCode = OpCodes.Ldc_I4_8;
+                                             count++;
+                                             break;
+                                }        
 
                                 }
                             }
