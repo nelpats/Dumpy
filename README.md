@@ -1,5 +1,5 @@
 # Dumpy
-### Simple .NET Assembly deobfuscator.
+### Simple .NET Assembly simplifier.
 
 ## Supported Mutations
 - Abs Mutations
@@ -20,12 +20,6 @@
 - EmptyTypes Mutations
 - Double Parser Mutations
 
-## Supported Obfuscators
-- Confuser
-- ConfuserEx
-- DarksProtector
-- Generic Obfuscators
-###### note: this may work on many other obfuscators.
 
 ## Usage
 ```
